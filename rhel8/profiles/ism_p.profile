@@ -1,6 +1,6 @@
 documentation_complete: true
 
-title: 'Australian Cyber Security Centre (ACSC) Information Security Manual (ISM)'
+title: 'Australian Cyber Security Centre (ACSC) Information Security Manual (ISM) - PROTECTED Hardening'
 
 description: |-
   This profile contains configuration checks for Red Hat Enterprise Linux 8
@@ -11,8 +11,6 @@ description: |-
 
   https://www.cyber.gov.au/publications/ism
 
-  NOTE: This profile is called by the profiles for the higher security classifications.
-        i.e. It is common to all
-        i.e. It is the hardening that is done by ALL the classification hardenings
+  NOTE: This profile uses ism_common.profile
 
 selections:
